@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Better New Tab</title>
+<link rel="stylesheet" href="newtab.css">
+</head>
+<body>
+  <div id="background"></div>
+
+  <div id="clock" class="widget draggable">12:00 PM</div>
+  <div id="date" class="widget draggable">March 9, 2026</div>
+  <div id="todo" class="widget draggable">
+    <h3>Todo</h3>
+    <ul id="todo-list"></ul>
+    <input id="todo-input" placeholder="Add task">
+  </div>
+
+  <div id="theme-selector">
+    <label>Preset:</label>
+    <select id="preset-select">
+      <option value="minimal">Minimal</option>
+      <option value="productivity">Productivity</option>
+      <option value="vibe">Vibe</option>
+    </select>
+  </div>
+
+  <div id="gif-uploader">
+    <label>Upload GIF:</label>
+    <input type="file" id="gifUpload" accept="image/gif">
+  </div>
+
+<script src="newtab.js"></script>
+</body>
+</html>
